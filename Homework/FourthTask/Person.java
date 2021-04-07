@@ -1,8 +1,5 @@
 package Homework.FourthTask;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
 
 public class Person {
 
@@ -14,7 +11,6 @@ public class Person {
     private static int current_year = 2021;
     private String info;
 
-    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public Person(String name, int birthYear, String info) {
         this.name = name;
